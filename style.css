@@ -8,7 +8,8 @@
     transition:opacity 1.5s 0s;
     
     font-size:1.1em;
-    box-shadow: 0 0 20px #000000;
+    /* box-shadow: 0 0 20px #000000; */
+    /* box-shadow: 0 0 5px #ffffff; */
 }
 :root.page-load .inside {
     opacity:1;
