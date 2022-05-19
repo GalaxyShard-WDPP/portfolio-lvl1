@@ -11,6 +11,15 @@
     /* box-shadow: 0 0 20px #000000; */
     /* box-shadow: 0 0 5px #ffffff; */
 }
+:root.page-unload body {
+    background-color:#00ffff !important;
+}
+:root.page-load body {
+    background-color:#ff8000 !important;
+}
+:root.page-unload.page-load body {
+    background-color:#000000 !important;
+}
 :root.page-load .inside {
     opacity:1;
 }
